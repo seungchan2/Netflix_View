@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC861676D498E665E06FD057 /* Pods_Nextflix_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C495ECCA2B820039BEC5965F /* Pods_Nextflix_Sample.framework */; };
+		EC2FF5AB26F235D900411F31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2FF5AA26F235D900411F31 /* AppDelegate.swift */; };
+		EC2FF5AD26F235D900411F31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2FF5AC26F235D900411F31 /* SceneDelegate.swift */; };
+		EC2FF5B426F235DB00411F31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2FF5B326F235DB00411F31 /* Assets.xcassets */; };
+		EC2FF5B726F235DB00411F31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2FF5B526F235DB00411F31 /* LaunchScreen.storyboard */; };
+		EC2FF5BF26F2387100411F31 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2FF5BE26F2387100411F31 /* HomeViewController.swift */; };
+		EC2FF5C126F23B3300411F31 /* Content.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC2FF5C026F23B3300411F31 /* Content.plist */; };
+		EC2FF5C326F23C5100411F31 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2FF5C226F23C5100411F31 /* Content.swift */; };
+		EC2FF5CD26F47C1700411F31 /* ContentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2FF5CC26F47C1700411F31 /* ContentCollectionViewCell.swift */; };
+		EC2FF5CF26F47F6600411F31 /* ContentCollectionViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2FF5CE26F47F6600411F31 /* ContentCollectionViewHeader.swift */; };
+		EC6175DB26F4EC0B00063E34 /* ContentCollectionViewMainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6175DA26F4EC0B00063E34 /* ContentCollectionViewMainCell.swift */; };
+		EC6175DD26F4EC2200063E34 /* ContentCollectionViewRankCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6175DC26F4EC2200063E34 /* ContentCollectionViewRankCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4AC380E064E4A51329D5CBE4 /* Pods-Nextflix_Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nextflix_Sample.release.xcconfig"; path = "Target Support Files/Pods-Nextflix_Sample/Pods-Nextflix_Sample.release.xcconfig"; sourceTree = "<group>"; };
+		C495ECCA2B820039BEC5965F /* Pods_Nextflix_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nextflix_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2FF5A726F235D900411F31 /* Nextflix_Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nextflix_Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2FF5AA26F235D900411F31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC2FF5AC26F235D900411F31 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EC2FF5B326F235DB00411F31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC2FF5B626F235DB00411F31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC2FF5B826F235DB00411F31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC2FF5BE26F2387100411F31 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EC2FF5C026F23B3300411F31 /* Content.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Content.plist; sourceTree = "<group>"; };
+		EC2FF5C226F23C5100411F31 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		EC2FF5CC26F47C1700411F31 /* ContentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewCell.swift; sourceTree = "<group>"; };
+		EC2FF5CE26F47F6600411F31 /* ContentCollectionViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewHeader.swift; sourceTree = "<group>"; };
+		EC6175DA26F4EC0B00063E34 /* ContentCollectionViewMainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewMainCell.swift; sourceTree = "<group>"; };
+		EC6175DC26F4EC2200063E34 /* ContentCollectionViewRankCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewRankCell.swift; sourceTree = "<group>"; };
+		F24520DFE0DB4EDB246745BD /* Pods-Nextflix_Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nextflix_Sample.debug.xcconfig"; path = "Target Support Files/Pods-Nextflix_Sample/Pods-Nextflix_Sample.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC2FF5A426F235D900411F31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC861676D498E665E06FD057 /* Pods_Nextflix_Sample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9141471CFA083FBD431C2212 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C495ECCA2B820039BEC5965F /* Pods_Nextflix_Sample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC2FF59E26F235D900411F31 = {
+			isa = PBXGroup;
+			children = (
+				EC2FF5A926F235D900411F31 /* Nextflix_Main */,
+				EC2FF5A826F235D900411F31 /* Products */,
+				F73FFF0EDEDE0F3E81CEFC16 /* Pods */,
+				9141471CFA083FBD431C2212 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EC2FF5A826F235D900411F31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC2FF5A726F235D900411F31 /* Nextflix_Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC2FF5A926F235D900411F31 /* Nextflix_Main */ = {
+			isa = PBXGroup;
+			children = (
+				EC6175DF26F4F36800063E34 /* Source */,
+				EC2FF5B826F235DB00411F31 /* Info.plist */,
+				EC2FF5C026F23B3300411F31 /* Content.plist */,
+			);
+			path = Nextflix_Main;
+			sourceTree = "<group>";
+		};
+		EC6175DF26F4F36800063E34 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				EC2FF5AA26F235D900411F31 /* AppDelegate.swift */,
+				EC2FF5AC26F235D900411F31 /* SceneDelegate.swift */,
+				EC2FF5B326F235DB00411F31 /* Assets.xcassets */,
+				EC2FF5B526F235DB00411F31 /* LaunchScreen.storyboard */,
+				EC6175E226F4F39B00063E34 /* AppModel */,
+				EC6175E126F4F38300063E34 /* ViewController */,
+				EC6175E026F4F37500063E34 /* Cell */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		EC6175E026F4F37500063E34 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EC2FF5CE26F47F6600411F31 /* ContentCollectionViewHeader.swift */,
+				EC2FF5CC26F47C1700411F31 /* ContentCollectionViewCell.swift */,
+				EC6175DA26F4EC0B00063E34 /* ContentCollectionViewMainCell.swift */,
+				EC6175DC26F4EC2200063E34 /* ContentCollectionViewRankCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		EC6175E126F4F38300063E34 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EC2FF5BE26F2387100411F31 /* HomeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EC6175E226F4F39B00063E34 /* AppModel */ = {
+			isa = PBXGroup;
+			children = (
+				EC2FF5C226F23C5100411F31 /* Content.swift */,
+			);
+			path = AppModel;
+			sourceTree = "<group>";
+		};
+		F73FFF0EDEDE0F3E81CEFC16 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F24520DFE0DB4EDB246745BD /* Pods-Nextflix_Sample.debug.xcconfig */,
+				4AC380E064E4A51329D5CBE4 /* Pods-Nextflix_Sample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC2FF5A626F235D900411F31 /* Nextflix_Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2FF5BB26F235DB00411F31 /* Build configuration list for PBXNativeTarget "Nextflix_Sample" */;
+			buildPhases = (
+				97B227BFE276C8633C6592B7 /* [CP] Check Pods Manifest.lock */,
+				EC2FF5A326F235D900411F31 /* Sources */,
+				EC2FF5A426F235D900411F31 /* Frameworks */,
+				EC2FF5A526F235D900411F31 /* Resources */,
+				D541C08605EE5E6E3316D833 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nextflix_Sample;
+			productName = Nextflix_Sample;
+			productReference = EC2FF5A726F235D900411F31 /* Nextflix_Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC2FF59F26F235D900411F31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EC2FF5A626F235D900411F31 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = EC2FF5A226F235D900411F31 /* Build configuration list for PBXProject "Nextflix_Sample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC2FF59E26F235D900411F31;
+			productRefGroup = EC2FF5A826F235D900411F31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC2FF5A626F235D900411F31 /* Nextflix_Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC2FF5A526F235D900411F31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2FF5B726F235DB00411F31 /* LaunchScreen.storyboard in Resources */,
+				EC2FF5B426F235DB00411F31 /* Assets.xcassets in Resources */,
+				EC2FF5C126F23B3300411F31 /* Content.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		97B227BFE276C8633C6592B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nextflix_Sample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D541C08605EE5E6E3316D833 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nextflix_Sample/Pods-Nextflix_Sample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nextflix_Sample/Pods-Nextflix_Sample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nextflix_Sample/Pods-Nextflix_Sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC2FF5A326F235D900411F31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2FF5AB26F235D900411F31 /* AppDelegate.swift in Sources */,
+				EC2FF5CF26F47F6600411F31 /* ContentCollectionViewHeader.swift in Sources */,
+				EC6175DB26F4EC0B00063E34 /* ContentCollectionViewMainCell.swift in Sources */,
+				EC2FF5AD26F235D900411F31 /* SceneDelegate.swift in Sources */,
+				EC6175DD26F4EC2200063E34 /* ContentCollectionViewRankCell.swift in Sources */,
+				EC2FF5BF26F2387100411F31 /* HomeViewController.swift in Sources */,
+				EC2FF5C326F23C5100411F31 /* Content.swift in Sources */,
+				EC2FF5CD26F47C1700411F31 /* ContentCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC2FF5B526F235DB00411F31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC2FF5B626F235DB00411F31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC2FF5B926F235DB00411F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC2FF5BA26F235DB00411F31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC2FF5BC26F235DB00411F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F24520DFE0DB4EDB246745BD /* Pods-Nextflix_Sample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RQHZUCMHSH;
+				INFOPLIST_FILE = Nextflix_Sample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "seungchan.Nextflix-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC2FF5BD26F235DB00411F31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AC380E064E4A51329D5CBE4 /* Pods-Nextflix_Sample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RQHZUCMHSH;
+				INFOPLIST_FILE = Nextflix_Sample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "seungchan.Nextflix-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC2FF5A226F235D900411F31 /* Build configuration list for PBXProject "Nextflix_Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2FF5B926F235DB00411F31 /* Debug */,
+				EC2FF5BA26F235DB00411F31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC2FF5BB26F235DB00411F31 /* Build configuration list for PBXNativeTarget "Nextflix_Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2FF5BC26F235DB00411F31 /* Debug */,
+				EC2FF5BD26F235DB00411F31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC2FF59F26F235D900411F31 /* Project object */;
+}
