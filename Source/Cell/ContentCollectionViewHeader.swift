@@ -7,6 +7,7 @@
 
 import UIKit
 
+// UICollectionResuableView -> Header, Footer
 class ContentCollectionViewHeader: UICollectionReusableView {
     let sectionNameLabel = UILabel()
     

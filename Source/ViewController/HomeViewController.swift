@@ -47,6 +47,7 @@ class HomeViewController: UICollectionViewController {
         collectionView.register(ContentCollectionViewCell.self, forCellWithReuseIdentifier: "ContentCollectionViewCell")
         collectionView.register(ContentCollectionViewMainCell.self, forCellWithReuseIdentifier: "ContentCollectionViewMainCell")
         collectionView.register(ContentCollectionViewRankCell.self, forCellWithReuseIdentifier: "ContentCollectionViewRankCell")
+        // Header -> Cell이 아니기 때문에 forSupplementary 사용
         collectionView.register(ContentCollectionViewHeader.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: "ContentCollectionViewHeader")
     }
     
@@ -93,6 +94,7 @@ class HomeViewController: UICollectionViewController {
     }
     
     // 메인 section layout 설정
+    // 비율로 설정 -> .fractional
     private func createMainTypeSection() -> NSCollectionLayoutSection {
         //item
         let itemSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1), heightDimension: .fractionalHeight(1))
@@ -151,7 +153,7 @@ class HomeViewController: UICollectionViewController {
         let sectionHeader = NSCollectionLayoutBoundarySupplementaryItem(layoutSize: layoutSectionHeaderSize, elementKind: UICollectionView.elementKindSectionHeader, alignment: .topLeading)
         return sectionHeader
     }
-    
+    // plist의 경로 불러오기
     func getContents() -> [Content] {
         guard let path = Bundle.main.path(forResource: "Content", ofType: "plist"),
               let data = FileManager.default.contents(atPath: path),

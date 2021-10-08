@@ -63,7 +63,7 @@
 		EC2FF59E26F235D900411F31 = {
 			isa = PBXGroup;
 			children = (
-				EC2FF5A926F235D900411F31 /* Nextflix_Main */,
+				EC2FF5A926F235D900411F31 /* Nextflix_Sample */,
 				EC2FF5A826F235D900411F31 /* Products */,
 				F73FFF0EDEDE0F3E81CEFC16 /* Pods */,
 				9141471CFA083FBD431C2212 /* Frameworks */,
@@ -78,14 +78,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EC2FF5A926F235D900411F31 /* Nextflix_Main */ = {
+		EC2FF5A926F235D900411F31 /* Nextflix_Sample */ = {
 			isa = PBXGroup;
 			children = (
 				EC6175DF26F4F36800063E34 /* Source */,
 				EC2FF5B826F235DB00411F31 /* Info.plist */,
 				EC2FF5C026F23B3300411F31 /* Content.plist */,
 			);
-			path = Nextflix_Main;
+			path = Nextflix_Sample;
 			sourceTree = "<group>";
 		};
 		EC6175DF26F4F36800063E34 /* Source */ = {
